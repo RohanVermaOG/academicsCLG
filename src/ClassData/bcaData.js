@@ -2,66 +2,75 @@ const bcaData =[
   {
     "semester": 1,
     "subjects": [
-      { "code": "BCA-101", "name": "Mathematics-I", "type": "Theory" },
-      { "code": "BCA-102", "name": "Programming in 'C'", "type": "Theory" },
-      { "code": "BCA-103", "name": "Environmental Studies", "type": "Theory" },
-      { "code": "BCA-104", "name": "Information Technology", "type": "Theory" },
-      { "code": "BCA-101P", "name": "Programming in 'C' Lab", "type": "Practical" },
-      { "code": "BCA-102P", "name": "IT Lab", "type": "Practical" }
+      { "code": "BCA-0101", "name": "Mathematics-I", "type": "Theory" },
+      { "code": "BCA-0102", "name": "Applied English", "type": "Theory" },
+      { "code": "BCA-0103", "name": "Computer Fundamentals", "type": "Theory" },
+      { "code": "BCA-0104", "name": "C Programming", "type": "Theory" },
+      { "code": "BCA-0105", "name": "Office Automation Tools", "type": "Theory" },
+      { "code": "BCA-0104P", "name": "C Programming Lab", "type": "Practical" },
+      { "code": "BCA-0105P", "name": "Office Automation Tools Lab", "type": "Practical" }
     ]
   },
   {
     "semester": 2,
     "subjects": [
-      { "code": "BCA-201", "name": "Mathematics-II", "type": "Theory" },
-      { "code": "BCA-202", "name": "Data Structure using 'C'", "type": "Theory" },
-      { "code": "BCA-203", "name": "Database Management System", "type": "Theory" },
-      { "code": "BCA-204", "name": "Computer Organization", "type": "Theory" },
-      { "code": "BCA-201P", "name": "Data Structure Lab", "type": "Practical" },
-      { "code": "BCA-202P", "name": "DBMS Lab", "type": "Practical" }
+      { "code": "BCA-0201", "name": "Mathematics-II", "type": "Theory" },
+      { "code": "BCA-0202", "name": "Communicative English", "type": "Theory" },
+      { "code": "BCA-0203", "name": "Digital electronics", "type": "Theory" },
+      { "code": "BCA-0204", "name": "Data structures", "type": "Theory" },
+      { "code": "BCA-0205", "name": "Database Management System", "type": "Theory" },
+      { "code": "BCA-0204P", "name": "Data Structure Lab", "type": "Practical" },
+      { "code": "BCA-0205P", "name": "Database Management System Lab", "type": "Practical" }
     ]
   },
   {
     "semester": 3,
     "subjects": [
-      { "code": "BCA-301", "name": "Mathematics-III", "type": "Theory" },
-      { "code": "BCA-302", "name": "Object Oriented Programming using C++", "type": "Theory" },
-      { "code": "BCA-303", "name": "Operating System", "type": "Theory" },
-      { "code": "BCA-304", "name": "Management Information System", "type": "Theory" },
-      { "code": "BCA-301P", "name": "C++ Lab", "type": "Practical" },
-      { "code": "BCA-302P", "name": "Operating System Lab", "type": "Practical" }
+      { "code": "BCA-0301", "name": "Mathematics-III", "type": "Theory" },
+      { "code": "BCA-0302", "name": "Business practises and management", "type": "Theory" },
+      { "code": "BCA-0303", "name": "Computer organisation", "type": "Theory" },
+      { "code": "BCA-0304", "name": "Object oriented programming with C++", "type": "Theory" },
+      { "code": "BCA-0305", "name": "Desktop publishing and designing", "type": "Theory" },
+
+      { "code": "BCA-0304P", "name": "object oriented programming with C++ Lab", "type": "Practical" },
+      { "code": "BCA-0305P", "name": "desktop, publishing, and designing lab", "type": "Practical" }
     ]
   },
   {
     "semester": 4,
     "subjects": [
-      { "code": "BCA-401", "name": "Computer Graphics", "type": "Theory" },
-      { "code": "BCA-402", "name": "Web Technology", "type": "Theory" },
-      { "code": "BCA-403", "name": "Software Engineering", "type": "Theory" },
-      { "code": "BCA-404", "name": "Optimization Techniques", "type": "Theory" },
-      { "code": "BCA-401P", "name": "Web Technology Lab", "type": "Practical" },
-      { "code": "BCA-402P", "name": "Computer Graphics Lab", "type": "Practical" }
+      { "code": "BCA-0401", "name": "Personnel management", "type": "Theory" },
+      { "code": "BCA-0402", "name": "Accounting", "type": "Theory" },
+      { "code": "BCA-0403", "name": "System analysis and design", "type": "Theory" },
+      { "code": "BCA-0404", "name": "Internet technology and webpage design", "type": "Theory" },
+      { "code": "BCA-0405", "name": "Programming in visual basic", "type": "Theory" },
+      { "code": "BCA-0404P", "name": "Internet technology and webpage design Lab", "type": "Practical" },
+      { "code": "BCA-0405P", "name": "Programming in visual basic Lab", "type": "Practical" }
     ]
   },
   {
     "semester": 5,
     "subjects": [
-      { "code": "BCA-501", "name": "Java Programming", "type": "Theory" },
-      { "code": "BCA-502", "name": "Data Communication & Networks", "type": "Theory" },
-      { "code": "BCA-503", "name": "Elective-I (Theory of Computation)", "type": "Theory" },
-      { "code": "BCA-504", "name": "Elective-II (AI & Machine Learning)", "type": "Theory" },
-      { "code": "BCA-501P", "name": "Java Lab", "type": "Practical" },
-      { "code": "BCA-502P", "name": "Project-I", "type": "Project" }
+      { "code": "BCA-0501", "name": "Operating System", "type": "Theory" },
+      { "code": "BCA-0502", "name": "e-commerce", "type": "Theory" },
+      { "code": "BCA-0503", "name": "Management information system", "type": "Theory" },
+      { "code": "BCA-0504", "name": "ASP.NET technologies", "type": "Theory" },
+            { "code": "BCA-0505", "name": "Computer oriented statistical methods", "type": "Theory" },
+
+      { "code": "BCA-0504P", "name": "ASP.NET technologies Lab", "type": "Practical" },
+      { "code": "BCA-0505P", "name": "Computer oriented statistical methods Lab", "type": "Practical" }
     ]
   },
   {
     "semester": 6,
     "subjects": [
-      { "code": "BCA-601", "name": "Network Security", "type": "Theory" },
-      { "code": "BCA-602", "name": "Elective-III (Cloud Computing)", "type": "Theory" },
-      { "code": "BCA-603", "name": "Elective-IV (Big Data Analytics)", "type": "Theory" },
-      { "code": "BCA-601P", "name": "Project-II", "type": "Project" },
-      { "code": "BCA-602P", "name": "Seminar/Viva", "type": "Viva" }
+      { "code": "BCA-0601", "name": "Computer networks", "type": "Theory" },
+      { "code": "BCA-0602", "name": "Numerical methods", "type": "Theory" },
+      { "code": "BCA-0603", "name": "Multimedia technology", "type": "Theory" },
+       { "code": "BCA-0604", "name": "Computer graphics", "type": "Theory" },
+        { "code": "BCA-0605", "name": "Software engineering", "type": "Theory" },
+      { "code": "BCA-0604P", "name": "Computer graphics Lab", "type": "Practical" },
+      { "code": "BCA-0606P", "name": "Major Project", "type": "Practical" }
     ]
   }
 ]

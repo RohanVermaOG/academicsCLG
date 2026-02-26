@@ -35,7 +35,9 @@ const Bca = () => {
           </ul>
         </div>
       ) : (
-        <p>Please select a semester to see the subjects.</p>
+        <p>Please select a semester to see the subjects.
+          <span>hwwwlo</span>
+        </p>
       )}
     </div>
   )
